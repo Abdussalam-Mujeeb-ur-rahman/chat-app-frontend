@@ -47,7 +47,7 @@ const ChatContainer = ({ currentChat, currentUser, socket }) => {
       try {
         if (currentChat) {
           const response = await axios.post(
-            "http://localhost:3030/api/messages/getmsg",
+            getAllMessagesRoute,
             {
               from: currentUser._id,
               to: currentChat._id,
