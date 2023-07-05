@@ -101,7 +101,7 @@ background-color: #080420;
     @media screen and (max-width: 719px) {
         flex-direction: row;
         width: 100%;
-        overflow: hidden;
+        overflow: auto;
       } 
 
     gap: 0.8rem;&::-webkit-scrollbar{
