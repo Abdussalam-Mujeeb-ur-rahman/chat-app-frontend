@@ -128,7 +128,7 @@ background-color: #080420;
             flex-direction: column;
             justify-content: center;
             gap: 0;
-            padding: 0;
+            padding: 0 1rem;
             width: 18vw;
             height: 5vw;
             border-radius: 0;
